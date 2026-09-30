@@ -1,5 +1,5 @@
 {
-  "name": "zusha",
+  "name": "sabra-zusha",
   "displayName": "Zusha",
   "version": "0.3.0",
   "description": "Explore daily Jewish learning, zmanim, communities, and your own progress in Sabra through a role-aware MCP connection.",
@@ -8,6 +8,8 @@
     "url": "https://daily.knafaim.app/"
   },
   "homepage": "https://daily.knafaim.app/",
+  "privacyPolicyUrl": "https://daily.knafaim.app/privacy",
+  "icon": "./.claude-plugin/icon.png",
   "repository": "https://github.com/ShalomMaman/zusha-plugin",
   "license": "UNLICENSED",
   "keywords": [

@@ -42,7 +42,7 @@ marketplace:
 
 ```text
 /plugin marketplace add ShalomMaman/zusha-plugin
-/plugin install zusha@sabra
+/plugin install sabra-zusha@sabra
 ```
 
 If you only want the remote MCP connection in Claude Code, add

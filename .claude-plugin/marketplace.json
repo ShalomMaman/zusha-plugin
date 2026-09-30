@@ -6,7 +6,7 @@
   "description": "Zusha's role-aware learning connector package for Sabra.",
   "plugins": [
     {
-      "name": "zusha",
+      "name": "sabra-zusha",
       "source": "./plugins/zusha",
       "description": "Zusha connects Claude to Sabra's daily learning and personal tools through one role-aware MCP server.",
       "version": "0.3.0"
