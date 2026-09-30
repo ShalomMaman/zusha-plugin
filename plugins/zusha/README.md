@@ -18,6 +18,21 @@ step before execution.
 The plugin contains no API keys, client secrets, or stored account tokens. The
 server's privacy policy is at [daily.knafaim.app/privacy](https://daily.knafaim.app/privacy).
 
+## Data handling
+
+The plugin bundle has no local scripts or account-data store. Tool requests go
+from Claude to Sabra's declared MCP server, and tool results return to Claude.
+With an account connection, those results can include your study plan and
+progress, reminders, and quiz history. Sabra retains account data while the
+account is active and deletes it when you delete the account. Its MCP server
+does not store conversation content or a location supplied in a conversation.
+For rate limiting, it may keep an IP address in memory for up to one hour;
+operational logs contain the tool name, status, response time, random request
+identifier, and server version, without request content. Sabra's privacy
+policy describes its other service providers and data rights. Claude handles
+your conversations and tool results under
+[Anthropic's privacy policy](https://www.anthropic.com/legal/privacy).
+
 ## Install
 
 In Claude, add Zusha from the plugin directory and connect the Zusha connector
