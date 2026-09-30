@@ -1,0 +1,50 @@
+{
+  "name": "zusha",
+  "version": "0.3.0",
+  "description": "זושא מחברת ללימוד היומי, לזמני היום, לקהילות ולהתקדמות האישית בסְבֹרֶא, בהתאם להרשאות החשבון.",
+  "author": {
+    "name": "Shalom Maman",
+    "url": "https://daily.knafaim.app/"
+  },
+  "homepage": "https://daily.knafaim.app/",
+  "repository": "https://github.com/ShalomMaman/zusha-plugin",
+  "license": "UNLICENSED",
+  "keywords": [
+    "svora",
+    "sabra",
+    "zusha",
+    "jewish-learning",
+    "chabad",
+    "daily-study",
+    "chitas",
+    "rambam"
+  ],
+  "interface": {
+    "displayName": "זושא — סְבֹרֶא",
+    "shortDescription": "זושא, החברותא המחוברת שלך ללימוד יומי.",
+    "longDescription": "למדו עם זושא מתוך המקור המדויק של סְבֹרֶא, עקבו אחרי התקדמות והשתמשו בכלים הזמינים לחשבונכם. ההתקנה משתמשת בכתובת MCP אחת ובחיבור OAuth; השרת מציג ומפעיל רק כלים שהחשבון המחובר מורשה להם.",
+    "developerName": "Shalom Maman",
+    "category": "Education",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://daily.knafaim.app/",
+    "privacyPolicyURL": "https://daily.knafaim.app/privacy",
+    "termsOfServiceURL": "https://daily.knafaim.app/terms",
+    "defaultPrompt": [
+      "מה נשאר לי ללמוד היום?",
+      "תסביר לי את התניא של היום ותשאל שאלה אחת",
+      "בחן אותי בחידון הרשמי של היום"
+    ],
+    "brandColor": "#1E3A5F"
+  },
+  "mcpServers": {
+    "zusha": {
+      "type": "http",
+      "url": "https://mcp.daily.knafaim.app/mcp"
+    }
+  },
+  "apps": "./.app.json"
+}
