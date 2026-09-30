@@ -15,8 +15,9 @@ server-side permission. Installing the plugin does not grant manager or
 administrator access. Actions that change data retain an explicit approval
 step before execution.
 
-The plugin contains no API keys, client secrets, or stored account tokens. The
-server's privacy policy is at [daily.knafaim.app/privacy](https://daily.knafaim.app/privacy).
+The plugin contains no API keys, client secrets, or stored account tokens. Read
+the [plugin privacy notice](PRIVACY.md) and the broader
+[Sabra privacy policy](https://daily.knafaim.app/privacy).
 
 ## Data handling
 

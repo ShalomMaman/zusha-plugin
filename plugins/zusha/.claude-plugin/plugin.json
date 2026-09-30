@@ -8,7 +8,7 @@
     "url": "https://daily.knafaim.app/"
   },
   "homepage": "https://daily.knafaim.app/",
-  "privacyPolicyUrl": "https://daily.knafaim.app/privacy",
+  "privacyPolicyUrl": "https://github.com/ShalomMaman/zusha-plugin/blob/submission/claude-directory/plugins/zusha/PRIVACY.md",
   "icon": "./.claude-plugin/icon.png",
   "repository": "https://github.com/ShalomMaman/zusha-plugin",
   "license": "UNLICENSED",
