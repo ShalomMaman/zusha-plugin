@@ -1,7 +1,7 @@
 {
   "name": "sabra-zusha",
-  "displayName": "Sabra Zusha",
-  "version": "0.3.0",
+  "displayName": "zusha",
+  "version": "0.3.1",
   "description": "Explore daily Jewish learning, zmanim, communities, and your own progress in Sabra through a role-aware MCP connection.",
   "author": {
     "name": "Shalom Maman",

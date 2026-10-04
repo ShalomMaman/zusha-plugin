@@ -9,7 +9,7 @@
       "name": "sabra-zusha",
       "source": "./plugins/zusha",
       "description": "Zusha connects Claude to Sabra's daily learning and personal tools through one role-aware MCP server.",
-      "version": "0.3.0"
+      "version": "0.3.1"
     }
   ]
 }
